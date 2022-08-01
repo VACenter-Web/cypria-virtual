@@ -378,22 +378,28 @@ h1, h2, h3, h4, h5, h6 {
   background: url("https://cdn.discordapp.com/attachments/991406165017755748/995051079412764722/InfiniteFlight_2022-07-08-18-58-12.jpg?width=2022&height=1137");
   background-size: contain;
 }
+#hero1 {
+  width: 100%;
+  height: 100vh;
+  background: url("https://cdn.discordapp.com/attachments/991406165017755748/995051082432643232/InfiniteFlight_2022-07-08-19-11-38.jpg");
+  background-size: cover;
+}
 #hero .container, #hero .container-fluid {
   padding-top: 84px;
 }
-#hero h1 {
+#hero, #hero1 h1 {
   margin: 0;
   font-size: 52px;
   font-weight: 700;
   line-height: 64px;
   color: #fff;
 }
-#hero h2 {
+#hero, #hero1 h2 {
   color: rgba(255, 255, 255, 0.8);
   margin: 10px 0 0 0;
   font-size: 20px;
 }
-#hero .btn-get-started {
+#hero, #hero1 .btn-get-started {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -410,52 +416,52 @@ h1, h2, h3, h4, h5, h6 {
   left: 45%;
   
 }
-#hero .btn-get-started:hover {
+#hero, #hero1 .btn-get-started:hover {
   background: #fff;
   color: #00A8E1;
   text-align: center;
 }
-#hero .animated {
+#hero, #hero1 .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 @media (min-width: 1200px) {
-  #hero {
+  #hero, #hero1 {
     background-attachment: fixed;
   }
 }
 @media (max-width: 991px) {
-  #hero {
+  #hero, #hero1 {
     text-align: center;
   }
-  #hero .container, #hero .container-fluid {
+  #hero, #hero1 .container, #hero .container-fluid {
     padding-top: 68px;
   }
-  #hero .animated {
+  #hero, #hero1 .animated {
     -webkit-animation: none;
     animation: none;
   }
-  #hero .hero-img {
+  #hero, #hero1 .hero-img {
     text-align: center;
   }
-  #hero .hero-img img {
+  #hero, #hero1 .hero-img img {
     width: 50%;
   }
 }
 @media (max-width: 768px) {
-  #hero h1 {
+  #hero, #hero1 h1 {
     font-size: 26px;
     line-height: 36px;
   }
-  #hero h2 {
+  #hero, #hero1 h2 {
     font-size: 18px;
     line-height: 24px;
   }
-  #hero .hero-img img {
+  #hero, #hero1 .hero-img img {
     width: 60%;
     background-image: url("https://media.discordapp.net/attachments/996380300483494008/999226301862916166/Screenshot_2022-07-20_at_09.08.28.png");
   }
 
-  #hero {
+  #hero, #hero1 {
     background-image: url("https://cdn.discordapp.com/attachments/991406165017755748/995052391323947008/InfiniteFlight_2022-07-08-19-29-18.jpg?width=2022&height=1137");
     background-size: contain;
     height: 150000%;
@@ -466,12 +472,12 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 @media (max-width: 575px) {
-  #hero .hero-img img {
+  #hero, #hero1 .hero-img img {
     width: 80%;
   }
 }
 @media (max-width: 575px), (max-height: 600px) {
-  #hero {
+  #hero, #hero1 {
     height: auto;
   }
 }
@@ -1287,7 +1293,7 @@ section {
 #footer {
   color: #fff;
   font-size: 14px;
-  background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url("../img/hero-bg.jpg") center center no-repeat;
+  background: linear-gradient(45deg, rgba(31, 101, 240, 0.9) 0%, rgba(43, 43, 242, 0.9) 100%), url("../img/hero-bg.jpg") center center no-repeat;
   background-size: cover;
 }
 #footer .footer-top {
